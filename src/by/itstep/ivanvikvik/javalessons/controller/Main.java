@@ -4,12 +4,19 @@ import by.itstep.ivanvikvik.javalessons.model.entity.WeekDay;
 
 public class Main {
     public static void main(String[] args) {
-        WeekDay monday = new WeekDay();
-        WeekDay friday = new WeekDay("Friday", 5);
+        WeekDay monday1 = WeekDay.MONDAY;
 
-        WeekDay mars = new WeekDay("Mars", 8);  // (1)!!!
-
-        System.out.println(monday);
-        System.out.println(friday);
+        System.out.println(WeekDay.FRIDAY);
     }
+
+//    static void test(WeekDay day) {
+//        switch(day) {
+//            case 1 : break;
+//            case 2 : break;
+//            case 3 : break;
+//            case 4 : break;
+//            case 5 : break;
+//            default : break;
+//        }
+//    }
 }

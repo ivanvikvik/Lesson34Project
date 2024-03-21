@@ -1,8 +1,8 @@
 package by.itstep.ivanvikvik.javalessons.model.entity;
 
 public class WeekDay {
-    private String name;
-    private int number;
+    private final String name;
+    private final int number;
 
     public WeekDay() {
         name = "Monday";

@@ -1,6 +1,7 @@
 package by.itstep.ivanvikvik.javalessons.model.entity;
 
 public class WeekDay {
+
     public static final WeekDay MONDAY = new WeekDay("Monday", 1);
     public static final WeekDay TUESDAY = new WeekDay("Tuesday",2);
     public static final WeekDay WEDNESDAY = new WeekDay("Wednesday",3);

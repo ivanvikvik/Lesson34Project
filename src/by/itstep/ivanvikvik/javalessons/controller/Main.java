@@ -1,12 +1,13 @@
 package by.itstep.ivanvikvik.javalessons.controller;
 
-import by.itstep.ivanvikvik.javalessons.model.entity.WeekDay;
+import by.itstep.ivanvikvik.javalessons.model.entity.WeekDayType;
 
 public class Main {
     public static void main(String[] args) {
-        WeekDay monday1 = WeekDay.MONDAY;
+        WeekDayType type = WeekDayType.MONDAY;
+        System.out.println("Before: " + type);
 
-        System.out.println(WeekDay.FRIDAY);
+        //WeekDay monday1 = WeekDay.MONDAY;
     }
 
 //    static void test(WeekDay day) {
